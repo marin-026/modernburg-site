@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Vacheh
+ORG:Modernburg
+TITLE:Title Here
+TEL;TYPE=CELL:+15555555555
+EMAIL:vacheh@modernburg.com
+ADR:;;123 Company Address St;City;State;ZIP;United States
+END:VCARD
