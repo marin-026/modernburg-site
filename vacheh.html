@@ -3,31 +3,74 @@
 <head>
 <title>Vacheh | Modernburg</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body{
+font-family: Arial, sans-serif;
+background:#f4f4f4;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+margin:0;
+}
+
+.card{
+background:white;
+padding:40px;
+border-radius:12px;
+box-shadow:0 4px 15px rgba(0,0,0,0.1);
+text-align:center;
+max-width:350px;
+width:90%;
+}
+
+h1{
+margin-bottom:5px;
+}
+
+h3{
+margin-top:0;
+color:#666;
+}
+
+.button{
+display:block;
+margin:10px 0;
+padding:12px;
+border-radius:8px;
+text-decoration:none;
+color:white;
+font-weight:bold;
+}
+
+.call{background:#2c7be5;}
+.email{background:#00a86b;}
+.contact{background:#333;}
+</style>
 </head>
 
-<body style="font-family: Arial; text-align:center; margin-top:50px;">
+<body>
 
-<h1>Vacheh Markarian</h1>
-<h3>CEO</h3>
+<div class="card">
+
+<h1>Vacheh</h1>
+<h3>Title Here</h3>
 
 <p>Modernburg</p>
 
-<p>
-<a href="tel:+15555555555">Call</a>
-</p>
+<a class="button call" href="tel:+15555555555">Call</a>
 
-<p>
-<a href="mailto:vacheh@modernburg.com">Email</a>
-</p>
+<a class="button email" href="mailto:vacheh@modernburg.com">Email</a>
 
 <p>
 123 Company Address St<br>
 City, State ZIP
 </p>
 
-<p>
-<a href="vacheh.vcf">Add Contact</a>
-</p>
+<a class="button contact" href="vacheh.vcf">Add Contact</a>
+
+</div>
 
 </body>
 </html>
