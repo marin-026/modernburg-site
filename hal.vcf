@@ -1,1 +1,10 @@
-
+BEGIN:VCARD
+VERSION:3.0
+N:Acevedo;Hal;;;
+FN:Hal Acevedo
+ORG:Modern Burg
+TITLE:Sales Director
+TEL;TYPE=CELL:+18187958022
+EMAIL:hal@modernburg.com
+ADR:;;120 W Providencia Ave, Burbank, CA 91502;;;United States
+END:VCARD
